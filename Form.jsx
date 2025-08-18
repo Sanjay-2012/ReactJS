@@ -76,7 +76,7 @@ class Form extends Component {
               name='Email'
               value={
                 /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{3,}$/.test(this.state.Email)
-                  ? this.state.Email.replace(/✅/g, "").trim() +"✅".trim()
+                  ? this.state.Email.replace(/✅/g, "").trim() +"✅"
                   : this.state.Email.replace(/✅/g, "").trim()
               }
 
@@ -112,3 +112,4 @@ class Form extends Component {
 }
 
 export default Form
+
