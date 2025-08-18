@@ -4,7 +4,7 @@ class Props extends Component {
   render() {
     const { status } = this.props;
 
-    // Define styles for each status
+   
     const styles = {
       success: { color: "green", fontWeight: "bold" },
       error: { color: "red", fontWeight: "bold" },
@@ -12,7 +12,6 @@ class Props extends Component {
       default: { color: "black" }
     };
 
-    // Pick style based on status
     const appliedStyle = styles[status] || styles.default;
 
     return (
@@ -27,3 +26,4 @@ class Props extends Component {
 }
 
 export default Props;
+
