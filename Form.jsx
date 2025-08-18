@@ -112,30 +112,3 @@ class Form extends Component {
 }
 
 export default Form
-
-
-
-
-
-
-
-
-
-
-
-
-// inputNameHandler = (event) => {
-//   this.setState({
-//     userName: event.target.value
-//   })
-// }
-// inputEmailHandler = (event) => {
-//   this.setState({
-//     Email: event.target.value
-//   })
-// }
-// inputNumHandler = (event) => {
-//   this.setState({
-//     PhNumber: event.target.value
-//   })
-// }
